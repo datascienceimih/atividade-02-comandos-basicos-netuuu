@@ -108,7 +108,8 @@ func_oo
 
 ## 7. Com um comando, exiba o banco de dados numa nova tela.
 
-func_2 <- edit(func_oo)
+func_2 <- edit(func_oo) # Para editar ou
+View(func_oo)           # Para apenas visualizar
 
 ## 8. Confira várias informações sobre o banco de dados 
 ##    (tamanho, classes das variáveis, nomes das variáveis) 
@@ -143,6 +144,7 @@ lista ## Exibir a lista
 
 class(lista) ## Exibir a classe da lista 
 
+# Fancy!! Tá super adiantado! Nós só vamos ver apply family daqui um tempo! Boa!!!
 sapply (lista, class) ## Exibe a classe de cada item da lista
 
 # "integer"    "numeric"    "integer"    "integer"    "numeric"    "numeric"   
